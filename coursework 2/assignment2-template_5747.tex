@@ -1,7 +1,7 @@
 \documentclass[10pt, a4paper]{article}
 % The next line loads some packages you will need
 
-\usepackage{graphicx, amsmath, amssymb, fancyhdr, setspace,titlesec,enumitem,indentfirst,hyperref}
+\usepackage{graphicx, amsmath, amssymb, fancyhdr, setspace,titlesec,enumitem,indentfirst,hyperref,caption}
 \usepackage[labelfont=bf]{caption}
 \usepackage[table]{xcolor}
 \hypersetup{
@@ -55,9 +55,10 @@ In MCDA, we have :
     \item Several criteria influencing our decision making. Ex: cost, engine power etc.
 \end{enumerate}
 \begin{figure}[h]
-	\includegraphics[width=9.5cm]{LUBS5308M Week03 Img001 - MCDA Methods}
 	\centering
-	\caption{Research outputs showing growing popularity of different MCDA techniques. (Source: Module Learning Material, Week 3)}
+	\includegraphics[width=9.5cm]{LUBS5308M Week03 Img001 - MCDA Methods}
+	\captionsetup{format=hang}
+	\caption{Research outputs showing growing popularity of different MCDA \hspace{10mm} techniques. (Source: Module Learning Material, Week 3)}
     \end{figure}
 As the name implies, MCDA allows you to consider multiple conflicting criteria and decide on the best option using different types of information. 
 Decisions are incredibly important in industry, especially decisions related to product development.\\
